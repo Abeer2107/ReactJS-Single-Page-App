@@ -19,10 +19,14 @@
     overflow: hidden;
 }
    
-#flyoutMenu h2 a {
+#flyoutMenu h2 button {
     color: #FFF;
-    margin-left: 30px;
     text-decoration: none;
+    background-color: rgba(1, 1, 1, 0);
+    width: 90px;
+    font-size: larger;
+    border: 0px;
+    cursor: pointer;
 }
    
 #flyoutMenu h2 a:hover {
