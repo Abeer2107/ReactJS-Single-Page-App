@@ -45,7 +45,7 @@ class Main extends Component {
                 <Menu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible}/>
                 
                 <div>
-                    <h1>Simple Single Page App</h1>
+                    <h1>Single Page App</h1>
 
                     <ul className="header">
                         <li><NavLink exact to="/">Home</NavLink></li>

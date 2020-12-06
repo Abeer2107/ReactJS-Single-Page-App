@@ -5,7 +5,7 @@
 }
    
 .board-row{
-    width: 300px;
+    width: 16em;
 }
 
 .square {
@@ -34,7 +34,7 @@
 .game-info {
     font-weight: bold;
     font-size: 20px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .game-info li{
@@ -47,7 +47,7 @@
     background-color: #0065A6;
     color: #FFF;
     border: 2px solid #0065A6;
-    width: 200px;
+    width: 150px;
 }
 
 .game-info button:hover {
