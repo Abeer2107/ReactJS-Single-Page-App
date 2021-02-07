@@ -5,7 +5,7 @@ class Guide extends Component{
     render(){
         return(
             <div>
-                <h2>Colors Guide</h2>
+                <h2>Colors Guide</h2><br />
                 <p>Check out these color cards!</p>
                 <ul className="cards-list">
                     <li><Card color="#3d2b3d"/></li>

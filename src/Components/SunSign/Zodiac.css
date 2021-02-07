@@ -1,0 +1,60 @@
+.date-form input{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 15%;
+    margin: 5px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+.date-form button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #0065A6;
+    color: #FFF;
+    border: 2px solid #0065A6;
+}
+
+.date-form{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-area{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-info{
+    margin: 10px;
+    width: 70%;
+    color: #FFF;
+    background-color: #3d2b3d;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: -3px 3px #000;
+}
+
+
+.sign-info img{
+    width: 40%;
+    margin: 5px;
+    border-radius: 10px;
+    float: left;
+}
+
+.sign-info-area{
+    float: left;
+    width:55%;
+    padding: 5px;
+    margin: 5px;
+	background-color: #222d69;
+}
+
+.sign-info-area p{
+    text-align: left;
+    margin: 10px;
+}

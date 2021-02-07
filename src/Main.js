@@ -9,6 +9,7 @@ import Home from "./Pages/Home";
 import Guide from "./Pages/Guide";
 import Contact from "./Pages/Contact";
 import Game from "./Pages/Game";
+import Zodiac from "./Pages/Zodiac";
 
 import MenuButton from "./Components/SideMenu/MenuButton";
 import Menu from "./Components/SideMenu/Menu";
@@ -52,6 +53,7 @@ class Main extends Component {
                         <li><NavLink to="/guide">Guide</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                         <li><NavLink to="/game">XO</NavLink></li>
+                        <li><NavLink to="/zodiac">Zodiac</NavLink></li>
                     </ul>
 
                     <div className="content">
@@ -59,6 +61,7 @@ class Main extends Component {
                         <Route path="/guide" component={Guide}/>
                         <Route path="/contact" component={Contact}/>
                         <Route path="/game" component={Game}/>
+                        <Route path="/zodiac" component={Zodiac}/>
                     </div>
                 </div>
             </HashRouter>      

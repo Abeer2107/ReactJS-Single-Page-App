@@ -56,3 +56,7 @@
     cursor: pointer;
 }
   
+.game-board{
+    display: flex;
+    justify-content: center;
+}

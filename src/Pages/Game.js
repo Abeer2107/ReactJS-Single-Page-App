@@ -5,8 +5,8 @@ class Game extends Component{
     render(){
         return(
             <div>
-                <h2>XO</h2>
-                <p>That game from the doc!</p>
+                <h2>XO</h2><br />
+                <p>That game from the doc!</p><br />
                 <XO />
             </div>
         );
