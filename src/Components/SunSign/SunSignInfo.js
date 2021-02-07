@@ -57,16 +57,18 @@ class SunSignInfo extends Component {
         return (sign ? 
         <div className="sign-info" style={{ backgroundImage: "url(Images/BG.jpg)" }}>
             <h2>{sign} {this.state.symbols[signNumber-1]}</h2>
-            <img src={`Images/${sign}.png`} alt="Representation of the resulting sun sign"/>
+            <div className="sign-info-content">
+                <img src={`Images/${sign}.png`} alt="Representation of the resulting sun sign"/>
 
-            <div className="sign-info-area">
-                <p>{this.state.descriptions[signNumber-1]}</p><br />
-                <p><b>Advantages:</b> {this.state.advantages[signNumber-1]}</p>
-                <p><b>Disadvantages:</b> {this.state.disadvantages[signNumber-1]}</p><br />
-                <p><b>Planet ruling:</b> {this.state.planet[signNumber-1]}</p>
-                <p><b>Tarot card:</b> {this.state.tarot[signNumber-1]}</p>
-                <p><b>Color:</b> {this.state.color[signNumber-1]}</p>
-                <p><b>Star stone:</b> {this.state.stone[signNumber-1]}</p>
+                <div className="sign-info-area">
+                    <p>{this.state.descriptions[signNumber-1]}</p><br />
+                    <p><b>Advantages:</b> {this.state.advantages[signNumber-1]}</p>
+                    <p><b>Disadvantages:</b> {this.state.disadvantages[signNumber-1]}</p><br />
+                    <p><b>Planet ruling:</b> {this.state.planet[signNumber-1]}</p>
+                    <p><b>Tarot card:</b> {this.state.tarot[signNumber-1]}</p>
+                    <p><b>Color:</b> {this.state.color[signNumber-1]}</p>
+                    <p><b>Star stone:</b> {this.state.stone[signNumber-1]}</p>
+                </div>
             </div>
         </div> : null
         );
