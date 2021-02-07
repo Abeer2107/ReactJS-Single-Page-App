@@ -57,7 +57,7 @@ class SunSignInfo extends Component {
         return (sign ? 
         <div className="sign-info" style={{ backgroundImage: "url(Images/BG.jpg)" }}>
             <h2>{sign} {this.state.symbols[signNumber-1]}</h2>
-            <img src={`Images/${sign}.png`} alt="An image representing the resulting sun sign"/>
+            <img src={`Images/${sign}.png`} alt="Representation of the resulting sun sign"/>
 
             <div className="sign-info-area">
                 <p>{this.state.descriptions[signNumber-1]}</p><br />
